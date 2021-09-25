@@ -1,0 +1,137 @@
+.wrapper {
+   padding: 1%;
+   align-items: center;
+}
+.button-placeholder {
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+#user-search {
+   text-align: 'centre';
+   align-self: 'center';
+   flex: 1 0 0%;
+}
+
+#my-projects {
+   text-align: 'centre';
+   align-self: 'center';
+   flex: 1 0 0%;
+}
+
+#my-project-body:hover {
+   opacity: 1;
+   cursor: pointer;
+   background-color: #ffc107;
+}
+
+#user-search:hover {
+   opacity: 1;
+   cursor: pointer;
+   background-color: #ffc107;
+}
+#my-request:hover {
+   cursor: pointer;
+}
+
+#row {
+   justify-content: center;
+}
+
+#col-md-4-user {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#col-md-4-project {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 1%;
+}
+
+#user-search-header:hover {
+   color: whitesmoke;
+}
+/* #user-details {
+   margin: 5%;
+} */
+#user-details-header {
+   color: whitesmoke;
+   display: flex;
+   justify-content: space-between;
+}
+#name-rating {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 1rem;
+}
+#login-card {
+   color: whitesmoke;
+}
+
+#nav-link {
+   color: white;
+}
+#author:hover {
+   color: blue;
+}
+#nav-link:hover {
+   color: #ffc107;
+   text-decoration: underline;
+}
+
+.Login-component {
+   width: 100vw;
+   height: 150vh;
+   background-repeat: repeat;
+   background-position: top;
+   background-size: cover;
+
+   position: absolute;
+}
+
+#root {
+   background-color: #eeeeee;
+   width: 100%;
+   height: 100%;
+}
+/* .Home-component {
+   display: grid;
+   align-items: center;
+} */
+
+/* relevant styles */
+.img__wrap {
+   display: flex;
+   justify-content: space-between;
+}
+.img__description {
+   color: aqua;
+   visibility: hidden;
+   opacity: 0;
+
+   /* transition effect. not necessary */
+   transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img__wrap:hover .img__description {
+   visibility: visible;
+   opacity: 1;
+}
+
+#avatar {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: #009578;
+   color: #fff;
+   text-align: center;
+}
