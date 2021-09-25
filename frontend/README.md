@@ -1,4 +1,4 @@
-# Getting Started with comp9323-group5-frontend
+# Getting Started with mentor-connect front end
 
 After cloning, Go to the project directory and run:
 
@@ -39,3 +39,9 @@ Rate user,
 Skills and Badges,
 Alert services,
 URL's
+
+# Getting Started with mentor-connect backend
+
+### go to the /backend folder
+### need java and postgres 
+### run java -jar mentor-connect-snapshot.jar
